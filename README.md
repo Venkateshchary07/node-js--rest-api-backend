@@ -1,24 +1,33 @@
-# Node.js Backend 
+# Node.js Backend Assignment
 
 ## Description
-This project is a backend assignment built using Node.js to practice server-side concepts, API handling, and basic project structure.
+This project is a Node.js backend assignment built using Express.js. It provides REST APIs to retrieve employee-related information such as personal details, salary, and department.
 
 ## Features
-- REST API implementation
-- Proper routing
-- Modular structure
-- Error handling
+- REST API development using Express.js
+- Employee data handling
+- API routing and request handling
+- CORS enabled
+- JSON-based responses
 
 ## Tech Stack
 - Node.js
 - Express.js
+- JavaScript
+
+## API Endpoints
+- GET /api/employees
+- GET /api/employees/:EMP_ID
+- GET /api/salary/:EMP_ID
+- GET /api/departments/:EMP_ID
 
 ## How to Run
 1. Clone the repository
 2. Run `npm install`
-3. Create a `.env` file
-4. Run `npm start`
+3. Run `node app.js`
+4. Server runs on port 3000
 
 ## Learning Outcome
-- Understood Node.js request-response cycle
-- Practiced backend logic and API design
+- Understood Express routing
+- Practiced REST API design
+- Learned backend request–response flow
