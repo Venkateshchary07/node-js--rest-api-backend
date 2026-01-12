@@ -1,0 +1,88 @@
+table{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    margin-left: 20%;
+    position: fixed;
+}
+th{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 30px;
+    border-collapse:collapse ;
+
+}
+td{
+    border-bottom: 1px solid grey;
+    color:black;;
+    border-collapse:collapse ;
+    padding: 10px 30px;
+}
+.tablehead{
+    background-color: black;
+    
+}
+button{
+    background-color: black;
+    color:white;
+    margin:1% 70%;
+    border-radius: 6px;
+}
+.input-form{
+    margin-left: 30%;
+    background-color: white;
+    padding: 1%;
+    height:auto;
+    width:auto;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px lightblue;
+    border-radius: 6px;
+    display:none;
+    position: fixed;
+    z-index: 1000;
+}
+input{
+    height:25px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.submit,#close{
+    background-color: green;
+    color: white;
+    padding: 10px 30px;
+    margin-left: 30%;
+    text-decoration: none;
+    margin: 5px;
+}
+.submit{
+    margin-left: 35px;
+}
+#close{
+    background-color: white;
+    color: black;
+}
+#error-msg{
+    color:red,
+}
+.emp-info{
+    height:70vh;
+    width:30vw;
+    position: fixed;
+    z-index: 900;
+    border:1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 2px 4px lightblue;
+    margin-left: 30%;
+    background-color: white;
+    display: none;
+    padding:30px;
+}
+.emp-info,h6{
+    font-size: 14px;
+}

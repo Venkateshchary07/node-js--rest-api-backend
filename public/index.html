@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NODE ASSIGNMENT-4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Employee_Data</h1>
+    <form class="input-form">
+        <div>
+            <label for="emp-id" class="input">Emp ID</label><br>
+            <input type="number" id="emp-id"><br>
+            <label for="name" class="input">Name</label><br>
+            <input type="text" id="name"><br>
+            <label for="age" class="input">Age</label><br>
+            <input type="number" id="age"><br>
+           <label for="mobile" class="input">Mobile</label><br>
+            <input type="text" id="mobile"><br>
+            <label for="city">City</label><br>
+            <input type="text" id="city"><br>
+            <label for="department" class="input">Department</label><br>
+            <input type="text" id="department"><br>
+            <label for="salary" class="input">Salary</label><br>
+            <input type="number" id="salary"><br>
+            <div id="error-msg"></div>
+            <button type="button" onclick="submit_form()" class="submit">Submit</button>
+            <button id="close" type="button" onclick="close_form()">Close</button>
+        </div>
+    </form>
+    <div id="loader" style="display:none; text-align:center;">
+  <img src="https://i.gifer.com/ZZ5H.gif" width="50" height="50" alt="Loading...">
+</div>
+    <div class="emp-info">
+         
+    </div>
+    <div class="table">
+        <span>
+        <table border="1">
+            <div class="tablehead">
+            <thead> 
+                <span>
+                    <button id="addbtn" type="button" style="height: 40px;width:60px" onclick="displayinput_form()">Add</button>
+                </span>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Mobile</th>
+                        <th>City</th> 
+                    </tr>
+                </thead>
+            </div>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </span>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
