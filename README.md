@@ -12,7 +12,6 @@ This project is a backend assignment built using Node.js to practice server-side
 ## Tech Stack
 - Node.js
 - Express.js
-- MongoDB / MySQL (if used)
 
 ## How to Run
 1. Clone the repository
